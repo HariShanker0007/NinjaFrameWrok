@@ -65,7 +65,7 @@
       <![CDATA[Disconnect DB]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-29T12:20:34 IST" name="Surefire suite" finished-at="2025-10-29T12:21:36 IST" duration-ms="61919">
+  <suite started-at="2025-10-29T15:40:24 IST" name="Surefire suite" finished-at="2025-10-29T15:41:17 IST" duration-ms="53498">
     <groups>
       <group name="regression">
         <method signature="CreateCampaignTest.createCampaignWithExpectedCloseDate()[pri:1, instance:testNG.CreateCampaignTest@5c30a9b0]" name="createCampaignWithExpectedCloseDate" class="testNG.CreateCampaignTest"/>
@@ -76,34 +76,34 @@
         <method signature="CreateProductTest.createProductWithMandatoryDetails()[pri:0, instance:testNG.CreateProductTest@50a638b5]" name="createProductWithMandatoryDetails" class="testNG.CreateProductTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-10-29T12:20:34 IST" name="Surefire test" finished-at="2025-10-29T12:21:36 IST" duration-ms="61919">
+    <test started-at="2025-10-29T15:40:24 IST" name="Surefire test" finished-at="2025-10-29T15:41:17 IST" duration-ms="53498">
       <class name="testNG.CreateContactTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T12:21:15 IST" name="beforeClass" finished-at="2025-10-29T12:21:17 IST" duration-ms="1886" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T15:40:56 IST" name="beforeClass" finished-at="2025-10-29T15:40:57 IST" duration-ms="1599" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launched Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T12:21:17 IST" name="beforeMethod" finished-at="2025-10-29T12:21:18 IST" duration-ms="1359" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T15:40:57 IST" name="beforeMethod" finished-at="2025-10-29T15:40:59 IST" duration-ms="1260" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Done]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createContactWithMandatoryDetails()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T12:21:18 IST" name="createContactWithMandatoryDetails" finished-at="2025-10-29T12:21:22 IST" duration-ms="3971" status="PASS">
+        <test-method signature="createContactWithMandatoryDetails()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T15:40:59 IST" name="createContactWithMandatoryDetails" finished-at="2025-10-29T15:41:05 IST" duration-ms="6871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactWithMandatoryDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T12:21:22 IST" name="afterMethod" finished-at="2025-10-29T12:21:28 IST" duration-ms="5983" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T15:41:05 IST" name="afterMethod" finished-at="2025-10-29T15:41:07 IST" duration-ms="1595" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout done]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T12:21:28 IST" name="AfterClass" finished-at="2025-10-29T12:21:28 IST" duration-ms="423" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateContactTest@636be97c]" started-at="2025-10-29T15:41:07 IST" name="AfterClass" finished-at="2025-10-29T15:41:07 IST" duration-ms="314" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
@@ -112,96 +112,96 @@
         </test-method> <!-- AfterClass -->
       </class> <!-- testNG.CreateContactTest -->
       <class name="testNG.CreateCampaignTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:34 IST" name="beforeSuite" finished-at="2025-10-29T12:20:34 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:24 IST" name="beforeSuite" finished-at="2025-10-29T15:40:24 IST" duration-ms="26" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Establisihing DataBase connection]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:34 IST" name="beforeTest" finished-at="2025-10-29T12:20:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:24 IST" name="beforeTest" finished-at="2025-10-29T15:40:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Pre-Conditions]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:34 IST" name="beforeClass" finished-at="2025-10-29T12:20:37 IST" duration-ms="2982" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:24 IST" name="beforeClass" finished-at="2025-10-29T15:40:26 IST" duration-ms="2432" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launched Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:37 IST" name="beforeMethod" finished-at="2025-10-29T12:20:40 IST" duration-ms="2813" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:26 IST" name="beforeMethod" finished-at="2025-10-29T15:40:30 IST" duration-ms="3373" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Done]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithAllFields()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:40 IST" name="createCampaignWithAllFields" finished-at="2025-10-29T12:20:45 IST" duration-ms="5188" status="PASS">
+        <test-method signature="createCampaignWithAllFields()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:30 IST" name="createCampaignWithAllFields" finished-at="2025-10-29T15:40:37 IST" duration-ms="7154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignWithAllFields -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:45 IST" name="afterMethod" finished-at="2025-10-29T12:20:49 IST" duration-ms="4379" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:37 IST" name="afterMethod" finished-at="2025-10-29T15:40:38 IST" duration-ms="1594" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout done]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:50 IST" name="beforeMethod" finished-at="2025-10-29T12:20:50 IST" duration-ms="813" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:38 IST" name="beforeMethod" finished-at="2025-10-29T15:40:39 IST" duration-ms="939" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Done]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithMandatoryDetails()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:50 IST" name="createCampaignWithMandatoryDetails" finished-at="2025-10-29T12:20:54 IST" duration-ms="4156" status="PASS">
+        <test-method signature="createCampaignWithMandatoryDetails()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:39 IST" name="createCampaignWithMandatoryDetails" finished-at="2025-10-29T15:40:45 IST" duration-ms="5855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignWithMandatoryDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:20:54 IST" name="afterMethod" finished-at="2025-10-29T12:21:01 IST" duration-ms="6687" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:45 IST" name="afterMethod" finished-at="2025-10-29T15:40:47 IST" duration-ms="1548" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout done]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:01 IST" name="beforeMethod" finished-at="2025-10-29T12:21:02 IST" duration-ms="877" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:47 IST" name="beforeMethod" finished-at="2025-10-29T15:40:48 IST" duration-ms="904" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Done]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithExpectedCloseDate()[pri:1, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:02 IST" name="createCampaignWithExpectedCloseDate" finished-at="2025-10-29T12:21:09 IST" duration-ms="6740" status="PASS">
+        <test-method signature="createCampaignWithExpectedCloseDate()[pri:1, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:48 IST" name="createCampaignWithExpectedCloseDate" finished-at="2025-10-29T15:40:54 IST" duration-ms="6046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignWithExpectedCloseDate -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:09 IST" name="afterMethod" finished-at="2025-10-29T12:21:14 IST" duration-ms="5586" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:54 IST" name="afterMethod" finished-at="2025-10-29T15:40:55 IST" duration-ms="1609" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout done]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:14 IST" name="AfterClass" finished-at="2025-10-29T12:21:15 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:40:55 IST" name="AfterClass" finished-at="2025-10-29T15:40:56 IST" duration-ms="367" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:36 IST" name="afterTest" finished-at="2025-10-29T12:21:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:41:17 IST" name="afterTest" finished-at="2025-10-29T15:41:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Post Conditions]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T12:21:36 IST" name="afterSuite" finished-at="2025-10-29T12:21:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNG.CreateCampaignTest@5c30a9b0]" started-at="2025-10-29T15:41:17 IST" name="afterSuite" finished-at="2025-10-29T15:41:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Disconnect DB]]>
@@ -210,32 +210,32 @@
         </test-method> <!-- afterSuite -->
       </class> <!-- testNG.CreateCampaignTest -->
       <class name="testNG.CreateProductTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T12:21:28 IST" name="beforeClass" finished-at="2025-10-29T12:21:30 IST" duration-ms="1560" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T15:41:07 IST" name="beforeClass" finished-at="2025-10-29T15:41:08 IST" duration-ms="1093" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launched Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T12:21:30 IST" name="beforeMethod" finished-at="2025-10-29T12:21:31 IST" duration-ms="1308" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T15:41:08 IST" name="beforeMethod" finished-at="2025-10-29T15:41:10 IST" duration-ms="1253" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Done]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createProductWithMandatoryDetails()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T12:21:31 IST" name="createProductWithMandatoryDetails" finished-at="2025-10-29T12:21:34 IST" duration-ms="2730" status="PASS">
+        <test-method signature="createProductWithMandatoryDetails()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T15:41:10 IST" name="createProductWithMandatoryDetails" finished-at="2025-10-29T15:41:15 IST" duration-ms="5549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductWithMandatoryDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T12:21:34 IST" name="afterMethod" finished-at="2025-10-29T12:21:36 IST" duration-ms="1636" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T15:41:15 IST" name="afterMethod" finished-at="2025-10-29T15:41:17 IST" duration-ms="1628" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout done]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T12:21:36 IST" name="AfterClass" finished-at="2025-10-29T12:21:36 IST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.CreateProductTest@50a638b5]" started-at="2025-10-29T15:41:17 IST" name="AfterClass" finished-at="2025-10-29T15:41:17 IST" duration-ms="327" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>

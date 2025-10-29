@@ -16,7 +16,7 @@ import junit.framework.Assert;
 
 public class CreateCampaignTest extends BaseClass {
 
-	@Test(priority = 0, groups = "smoke")
+	@Test(priority = 0, groups = "regression")
 	public void createCampaignWithMandatoryDetails() throws Throwable {
 
 		// Reading Data from Excel Sheet
