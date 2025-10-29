@@ -22,13 +22,19 @@ public class CreateCampaignTest extends BaseClass {
 		// Reading Data from Excel Sheet
 		String campName = elib.toReadDataFromExcel("Campaign", 1, 0);
 		String tarSize = elib.toReadDataFromExcel("Campaign", 1, 2);
+		
+		//Hi And Hello
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 		
+<<<<<<< HEAD
 		//Hello From Hari
+=======
+		// Hello
+>>>>>>> branch 'main' of https://github.com/HariShanker0007/NinjaFrameWrok.git
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
 		// Mandatory Fields

@@ -46,7 +46,11 @@ public class BaseClass {
 	@BeforeClass(groups = {"smoke","regression"})
 	public void beforeClass() throws Throwable {
 		String BROWSER = flib.toReadDatFromPropFiles("browser");
+<<<<<<< HEAD
+		//String BROWSER = System.getProperty("browser");
+=======
 //		String BROWSER = System.getProperty("browser");
+>>>>>>> branch 'main' of https://github.com/HariShanker0007/NinjaFrameWrok.git
 		if (BROWSER.equals("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			Map<String, Object> prefs = new HashMap<>();
