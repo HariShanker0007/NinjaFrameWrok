@@ -27,6 +27,7 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
+		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
@@ -51,6 +52,7 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
+		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
@@ -77,6 +79,7 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
+		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with

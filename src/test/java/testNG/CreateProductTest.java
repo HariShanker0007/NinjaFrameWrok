@@ -28,7 +28,10 @@ public class CreateProductTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
+		Thread.sleep(3000);
 		hp.getProductsLink().click();
+		
+		//hi
 		
 		ProductPage pp = new ProductPage(driver);
 		pp.getAddProd().click();
