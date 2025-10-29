@@ -37,6 +37,7 @@ public class CreateContactTest extends BaseClass {
 
 		// Creating object of homepage
 		Homepage hp = new Homepage(driver);
+		Thread.sleep(3000);
 		hp.getContactsLink().click();
 
 		ContactPage cp = new ContactPage(driver);
