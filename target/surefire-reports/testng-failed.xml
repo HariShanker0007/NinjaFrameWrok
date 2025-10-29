@@ -3,6 +3,34 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="testNG.CreateProductTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="createProductWithMandatoryDetails"/>
+          <include name="AfterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.CreateProductTest -->
+      <class name="testNG.CreateCampaignTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="AfterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="createCampaignWithExpectedCloseDate"/>
+          <include name="createCampaignWithAllFields"/>
+          <include name="beforeClass"/>
+          <include name="createCampaignWithMandatoryDetails"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.CreateCampaignTest -->
       <class name="testNG.CreateContactTest">
         <methods>
           <include name="beforeSuite"/>

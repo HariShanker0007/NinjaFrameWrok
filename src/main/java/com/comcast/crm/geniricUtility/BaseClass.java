@@ -45,8 +45,8 @@ public class BaseClass {
 	//@Parameters("browser")
 	@BeforeClass(groups = {"smoke","regression"})
 	public void beforeClass() throws Throwable {
-//		String BROWSER = flib.toReadDatFromPropFiles("browser");
-		String BROWSER = System.getProperty("browser");
+		String BROWSER = flib.toReadDatFromPropFiles("browser");
+//		String BROWSER = System.getProperty("browser");
 		if (BROWSER.equals("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			Map<String, Object> prefs = new HashMap<>();
@@ -67,13 +67,13 @@ public class BaseClass {
 
 	@BeforeMethod(groups = {"smoke","regression"})
 	public void beforeMethod() throws Throwable {
-//		String URL = flib.toReadDatFromPropFiles("url");
-//		String UN = flib.toReadDatFromPropFiles("un");
-//		String PW = flib.toReadDatFromPropFiles("pw");
+		String URL = flib.toReadDatFromPropFiles("url");
+		String UN = flib.toReadDatFromPropFiles("un");
+		String PW = flib.toReadDatFromPropFiles("pw");
 		
-		String URL =System.getProperty("url");
-		String UN =System.getProperty("un");
-		String PW =System.getProperty("pw");
+//		String URL =System.getProperty("url");
+//		String UN =System.getProperty("un");
+//		String PW =System.getProperty("pw");
 
 		driver.get(URL);
 
