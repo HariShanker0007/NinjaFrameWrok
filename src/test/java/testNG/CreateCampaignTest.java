@@ -29,8 +29,12 @@ public class CreateCampaignTest extends BaseClass {
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
+<<<<<<< HEAD
 		
 		// Hello and HI
+=======
+
+>>>>>>> branch 'main' of https://github.com/HariShanker0007/NinjaFrameWrok.git
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
 		// Mandatory Fields
