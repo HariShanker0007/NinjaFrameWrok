@@ -23,7 +23,7 @@ public class CreateCampaignTest extends BaseClass {
 		String campName = elib.toReadDataFromExcel("Campaign", 1, 0);
 		String tarSize = elib.toReadDataFromExcel("Campaign", 1, 2);
 		
-		//Hi
+		//Hi And Hello
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
