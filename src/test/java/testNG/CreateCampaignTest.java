@@ -30,7 +30,7 @@ public class CreateCampaignTest extends BaseClass {
 		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 		
-		// Hello
+		// Hello and HI
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
 		// Mandatory Fields
