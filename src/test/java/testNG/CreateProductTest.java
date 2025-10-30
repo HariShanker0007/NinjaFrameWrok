@@ -15,6 +15,21 @@ import com.comcast.crm.geniricUtility.BaseClass;
 @Listeners(com.comcast.crm.listenersUtility.ListenerImplementation.class)
 
 public class CreateProductTest extends BaseClass {
+	
+	/**
+	 * Login to the Ninja CRM
+	 * Creates a Product Using Mandatory Fields
+	 * Logout
+	 * 
+	 * @param UserName
+	 * @param Password
+	 * 
+	 * @author Hari
+	 * 
+	 *@return A Product With Mandatory Fields
+	 */
+	
+	
 	@Test(priority = 0,groups = "smoke")
 	public void createProductWithMandatoryDetails() throws Throwable {
 
@@ -28,7 +43,6 @@ public class CreateProductTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
-		Thread.sleep(3000);
 		hp.getProductsLink().click();
 		
 		//hi

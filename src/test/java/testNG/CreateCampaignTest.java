@@ -15,7 +15,20 @@ import junit.framework.Assert;
 @Listeners(com.comcast.crm.listenersUtility.ListenerImplementation.class)
 
 public class CreateCampaignTest extends BaseClass {
-
+	
+	/**
+	 * Login to the Ninja CRM
+	 * Creates a Campaign Using Mandatory Fields
+	 * Logout
+	 * 
+	 * @param UserName
+	 * @param Password
+	 * 
+	 * @author Hari
+	 * 
+	 *@return A Campaign
+	 */
+	
 	@Test(priority = 0, groups = "regression")
 	public void createCampaignWithMandatoryDetails() throws Throwable {
 
@@ -28,7 +41,6 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
-		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
@@ -40,6 +52,19 @@ public class CreateCampaignTest extends BaseClass {
 		hp.verifyMsg(driver, campName);
 
 	}
+	
+	/**
+	 * Login to the Ninja CRM
+	 * Creates a Campaign Using Expected Close Date
+	 * Logout
+	 * 
+	 * @param UserName
+	 * @param Password
+	 * 
+	 * @author Hari
+	 * 
+	 *@return A Campaign With close date
+	 */
 
 	@Test(priority = 1, groups = "regression")
 	public void createCampaignWithExpectedCloseDate() throws Throwable {
@@ -53,7 +78,6 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
-		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with
@@ -64,7 +88,19 @@ public class CreateCampaignTest extends BaseClass {
 		// Verify the toast msg
 		hp.verifyMsg(driver, campName);
 	}
-
+	
+	/**
+	 * Login to the Ninja CRM
+	 * Creates a Campaign Using All Fields
+	 * Logout
+	 * 
+	 * @param UserName
+	 * @param Password
+	 * 
+	 * @author Hari
+	 * 
+	 *@return A Campaign With all Fields
+	 */
 	@Test
 	public void createCampaignWithAllFields() throws Throwable {
 
@@ -80,7 +116,6 @@ public class CreateCampaignTest extends BaseClass {
 
 		// Clicking on the create Campaign Button in the home page
 		Homepage hp = new Homepage(driver);
-		Thread.sleep(3000);
 		hp.getCreateCampaignBtn().click();
 
 		// Creating the object of CreateCampaign page and Creating a campaign with

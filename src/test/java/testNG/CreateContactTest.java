@@ -17,6 +17,19 @@ import com.comcast.crm.geniricUtility.WebDriverUtility;
 @Listeners(com.comcast.crm.listenersUtility.ListenerImplementation.class)
 
 public class CreateContactTest extends BaseClass {
+	
+	/**
+	 * Login to the Ninja CRM
+	 * Creates a Contact Using Mandatory Fields
+	 * Logout
+	 * 
+	 * @param UserName
+	 * @param Password
+	 * 
+	 * @author Hari
+	 * 
+	 *@return A Contact With Mandatory Fields
+	 */
 	@Test(groups = "smoke")
 	public void createContactWithMandatoryDetails() throws Throwable {
 
@@ -39,7 +52,6 @@ public class CreateContactTest extends BaseClass {
 
 		// Creating object of homepage
 		Homepage hp = new Homepage(driver);
-		Thread.sleep(3000);
 		hp.getContactsLink().click();
 
 		ContactPage cp = new ContactPage(driver);
@@ -74,6 +86,7 @@ public class CreateContactTest extends BaseClass {
 		System.out.println(msg);
 		Assert.assertEquals(msg,"Contact "+contNam+" Successfully Added");
 		driver.findElement(By.xpath("//button[@aria-label='close']")).click();
+		
 
 	}
 }
